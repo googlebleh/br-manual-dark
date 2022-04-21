@@ -1,13 +1,8 @@
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: white;
+span.term {
+    /* without important, this was getting overridden by docbook-xsl.css */
+    color: lightblue !important;
 }
-*/
+
 body {
     background-color: black;
     color: grey;
@@ -28,16 +23,3 @@ pre.screen {
     background: black;
     color: lightgray;
 }
-
-/*
-table {
-    background-color: black;
-}
-*/
-/*
-tr {
-    /* once in a while, de0u manually adds a color for one of these */
-/*
-background-color: black;
-}
-*/
